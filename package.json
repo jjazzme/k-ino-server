@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "k-ino server",
+  "main": "main.js",
+  "scripts": {
+    "serverDev": "ts-node-dev --respawn main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.1",
+    "@hapi/hapi": "^20.0.3",
+    "@hapi/inert": "^6.0.3",
+    "bcrypt": "^5.0.0",
+    "filepaths": "^0.3.0",
+    "hapi-auth-bearer-token": "^8.0.0",
+    "hapi-auth-jwt2": "^10.2.0",
+    "hapi-sequelizejs": "^4.3.0",
+    "joi": "^17.3.0",
+    "lodash": "^4.17.20",
+    "md5": "^2.3.0",
+    "mysql2": "^2.2.5",
+    "nanoid": "^2.1.11",
+    "nodemailer": "^6.4.13",
+    "qs": "^6.9.4",
+    "read-excel-file": "^5.0.0",
+    "sequelize": "^6.3.5",
+    "shortid": "^2.2.15",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.3",
+    "@types/hapi__inert": "^5.2.2",
+    "@types/hapi-auth-bearer-token": "^6.1.2",
+    "@types/joi": "^14.3.4",
+    "ts-node-dev": "^1.1.1"
+  },
+  "trash": {
+    "@prisma/cli": "^2.13.1"
+  }
+}
